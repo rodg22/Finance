@@ -1,0 +1,133 @@
+.title-section div{
+    width: 85%;
+    margin-top: 12%;
+    padding-bottom: 5%;
+    border-bottom: 2px solid #dd9f2e;
+}
+
+.title-section h1 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+.title-section p {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.user-info div {
+    display: flex;
+    width: 80%;
+    margin: 10px auto 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.user-info p {
+    margin: 2% auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2rem;
+    width: 50%;
+}
+
+.user-info .user-input ,.mail-input{
+    padding: 1%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 70%;
+}
+
+.parrafo-datos {
+    margin: 1% auto;
+    font-size: 1.5rem;
+}
+
+.contenedor-datos {
+    width: 90%;
+    margin: 1% auto;
+}
+
+.div-datos {
+    width: 45%;
+}
+
+/*FINANCER*/
+
+.h2{
+    border-top: none;
+    margin: 5% auto 5%;
+    padding: 0;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+
+.h2 .resaltar {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+
+.financers-section div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.financers-section div img {
+    width: 32%;
+    margin: none;
+}
+
+/*EMPODERA TUS FINANZAS*/
+
+.info-section .imagen-info-section img{
+    width: 90%;
+    margin-top: 0;
+}
+
+.porcentaje-section {
+    display: flex;
+    align-items: center;
+    margin: 5% auto 0;;
+    width: 80%;
+}
+
+.porcentaje-section img{
+    margin: 0 auto;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.porcentaje-section p {
+    font-size: 1.6rem;
+    text-align: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    border-left: 2px solid #dd9f2e;
+}
+
+.cta-button {
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-footer {
+    text-align: left;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.redes img {
+    margin-top: 0;
+    margin-left: 5px;
+}

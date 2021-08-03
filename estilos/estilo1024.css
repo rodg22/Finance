@@ -1,0 +1,162 @@
+.title-section div{
+    margin: 7% auto 0;
+}
+
+.title-section h1 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+}
+.title-section p {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+main {
+    width: 85%;
+    margin: 3% auto;
+}
+
+.user-info div {
+    width: 60%;
+}
+
+#boton-calcular, #boton-recalcular{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    color: white;
+    background-color: #dd9f2e;
+    border: none;
+    padding: 2% 20%;
+    border-radius: 25px;
+}
+
+#boton-calcular:hover, #boton-recalcular:hover{
+    background-color: #CD942C;
+}
+
+.h2{
+    margin: 4% auto 2%;
+}
+
+.temporal {
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+
+.lista-datos span{
+    font-size: 2rem;
+}
+
+.financers-section div{
+    width: 100%;
+}
+
+.financers-section div img {
+    width: 30%;
+}
+
+.info-section {
+    display: flex;
+    align-items: stretch;
+}
+
+.info-section .imagen-info-section {
+    flex: 43%;
+}
+
+.info-section .imagen-info-section img{
+    width: 100%;
+    margin: 0;
+}
+
+.stats-info-section {
+    padding: 0;
+    flex: 57%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.porcentaje-section {
+    margin: 0 0 7% 9%;
+    width: 90%;
+}
+
+.porcentaje-section img{
+    display: block;
+    margin: 0 auto;
+    min-width: none;
+    width: none;
+}
+
+.porcentaje-section p {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    border-left: 2px solid #dd9f2e;
+}
+
+.cta-div{
+    display: flex;
+    margin: 0 0 0 9%;
+    width: 90%;
+}
+
+.cta-button {
+    padding: 5px 50px;
+}
+
+.cta-button:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+#div-mail {
+    margin-top: 7%;
+}
+
+.mail-input {
+    width: 40%;
+    margin-right: 3%;
+}
+
+footer {
+    background-color: #979797;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.logo-footer {
+    text-align: left;
+    padding: 3% 0 3% 3%;
+}
+
+.logo-footer img{
+    width: 114px;
+}
+
+.logo-footer p{
+    margin-top: 3%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.redes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 1% 3% 0;
+}
+
+.redes img {
+    width: 39.56px;
+    margin-left: 5px;
+}
+.redes img:hover {
+    transform: scale(0.95);
+}

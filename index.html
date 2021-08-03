@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="recursos/imagenes/icon.png">
+    <link rel="stylesheet" href="estilos/estilo320-599.css">
+    <link rel="stylesheet" href="estilos/estilo600-1024.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="estilos/estilo1024.css" media="(min-width: 1025px)">
+    <title>Finance</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="recursos/imagenes/logo-finance-header.png" alt="Logo de Finance"></a>
+    </header>
+    <main>
+        <section class="title-section">
+            <div>
+                <h1>¿Queres llevar tus finanzas de una forma fácil y simple?</h1>
+                <p>La correcta administración de gastos e ingresos son el punto de partida clave para proyectar el ahorro, el presupuesto de gasto y tus objetivos financieros.</p>
+            </div>
+        </section>
+        <section id="datos-section">
+            <h2 class="h2">TUS DATOS EN <span class="resaltar">FINANCE</span></h2>
+            <div id="hide">
+                <div>
+                    <p class="parrafo-datos">¿Querés calcular cual sería el limite ideal de gastos y ahorro por mes?</p>
+                    <p class="parrafo-datos">Completá estos datos para calcular las variables:</p>
+                </div>
+                <div class="user-info&button">
+                    <div class="user-info">
+                        <div>
+                            <p>Nombre:</p>
+                            <input class="user-input" type="text" placeholder="Nombre">
+                        </div>
+                        <div>
+                            <p>Ingresos mensuales:</p>
+                            <input class="user-input" type="number" min="1000" placeholder="Mayores a 0">
+                        </div>
+                    </div>
+                </div>
+                <input id="boton-calcular" class="cta-button" type="button" value="CALCULAR">
+                <p id="validador" class="parrafito-datos">*Completa los datos correctamente*</p>
+            </div>
+        </section>
+        <section class="financers-section">
+            <h2 class="h2">VOS TAMBIÉN PODES SER UN <span class="resaltar">FINANCER</span>, COMO ELLOS:</h2>
+            <div>
+                <img src="recursos/imagenes/miembro-finance-1.jpg" alt="Miembro de finance">
+                <img src="recursos/imagenes/miembro-finance-2.jpg" alt="Miembro de finance">
+                <img src="recursos/imagenes/miembro-finance-3.jpg" alt="Miembro de finance">
+            </div>
+        </section>
+        <section class="empodera-section">
+            <h2 class="h2">EMPODERÁ TUS <span class="resaltar">FINANZAS</span></h2>
+            <div class="info-section">
+                <div class="imagen-info-section">
+                    <img  src="recursos/imagenes/imagen-section.png" alt="Estadisticas en la computadora">
+                </div>
+                <div class="stats-info-section">
+                    <div class="porcentaje-section">
+                        <img src="recursos/imagenes/porcentaje-ochenta.png" alt="80% maximo en gastos">
+                        <p>Sería ese porcentaje máximo sobre tus ingresos. Se recomienda no superar ese número entre gastos fijos (max 50%) y gastos variables (max 30%).</p>
+                    </div>
+                    <div class="porcentaje-section">
+                        <img src="recursos/imagenes/porcentaje-veinte.png" alt="20% minimo en gastos">
+                        <p>Sería ese porcentaje mínimo sobre tus ingresos. Se recomienda por lo menos ese número para poder destinar ese sobrante para tus objetivos financieros.</p>
+                    </div>
+                    <div class="cta-div">
+                        <a href="https://www.bbc.com/mundo/noticias-48967793" target="_blank"><input class="cta-button" type="button" value="ver más"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cursos-section">
+            <h2 class="h2">CONOCÉ NUESTROS <span class="resaltar">CURSOS</span>:</h2>
+            <div id="cursos"></div>
+            <div id="div-mail">
+                <p class="parrafo-datos">¿Te interesa alguno de los cursos? Dejanos tu <span class="resaltar">mail</span> y te pasamos más info.</p>
+                <input type="mail" class="mail-input" placeholder="mail@mail.com" required>
+                <input type="submit" id="enviar-mail" class="cta-button" value="Enviar">
+            </div>
+            <div id="mensaje-mail" style="display: none;">
+                <div class="parrafo-datos">Te mandamos un mail con la <span class="resaltar">info necesaria!</span> Recordá revisar la casilla de correo no deseado.</div>
+                <div class="parrafo-datos">¿No te llego el correo o ingresaste incorrectamente el mail? <a id="reenviar-mail" href="">Volvé a intentarlo</a>.</div>
+            </div>
+        </section>
+        <div><button id="arriba" class="arriba"><img src="recursos/imagenes/arrow-up.png" alt="Ir arriba"></button></div>
+    </main>
+    <footer>
+        <div class="logo-footer">
+            <img src="recursos/imagenes/logo-finance-footer.png" alt="Logo de Finance en color blanco">
+            <p>Rodrigo Giudice &copy; CURSO CODER HOUSE JS-2021</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/" target="_blank"><img src="recursos/imagenes/redes-logo-fb.png" alt="Logo de Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="recursos/imagenes/redes-logo-ig.png" alt="Logo de Instagram"></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/datos.js"></script>
+    <script src="js/general.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
